@@ -103,11 +103,11 @@ def test_python_in_path() -> Check_Result:
             python_in_path_test.success_messages.append("Python Version: " + python_version[2:-3])
         else:
             python_in_path_test.success_messages.append("Python Version: " + python_version[2:-5])
-        if ("Python 3.9" in python_version):
+        if ("Python 3.10" in python_version):
             python_in_path_test.status = True 
         else:
-            python_in_path_test.fail_messages.append("Python interpreter is lower than 3.9.")
-            python_in_path_test.error_codes.append("S102 - python command runs a version less than 3.9 ")
+            python_in_path_test.fail_messages.append("Python interpreter is lower than 3.10.")
+            python_in_path_test.error_codes.append("S102 - python command runs a version less than 3.10 ")
     except Exception:
         python_version = ""
         python_in_path_test.fail_messages.append("Python not installed.")
@@ -120,10 +120,10 @@ def test_version() -> Check_Result:
     version_test = Check_Result("Python Interpreter Test")
     version_test.description = "Python version of interpreter that is being run in the workspace."
     version = sys.version[:3]
-    if float(version) < 3.9:
+    if float(version) < 3.10:
         version_test.fail_messages.append("Python interpreter: " + version)
-        version_test.fail_messages.append("Python interpreter used in workspace is lower than 3.9.")
-        version_test.error_codes.append("S103 - Python version being run in vscode is lower than 3.9")
+        version_test.fail_messages.append("Python interpreter used in workspace is lower than 3.10.")
+        version_test.error_codes.append("S103 - Python version being run in vscode is lower than 3.10")
     else:
         version_test.success_messages.append("Python interpreter: " + version)
         version_test.status = True 
