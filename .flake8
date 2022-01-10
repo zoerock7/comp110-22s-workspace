@@ -7,7 +7,7 @@
 
 [flake8]
 exclude = .git
-max-line-length = 119
+max-line-length = 160
 docstring-convention = google
 ignore = W2,D100,D101,D102,D103,D104,E501
 
