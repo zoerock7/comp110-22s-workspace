@@ -1,4 +1,4 @@
-# COMP110 Workspace - Fall 2021
+# COMP110 Workspace - Spring 2022
 
 Your work in the course will be completed in this workspace. Instructions for the two most common tasks you'll perform can be found below.
 
@@ -19,7 +19,7 @@ Your work in the course will be completed in this workspace. Instructions for th
 7. Select the `backup` remote that is your personal workspace on GitHub. If you do not see `backup` listed, see the instructions below on _Setup Backup Course Material Repository_.
    - You may see a spinning "refresh" icon in your status bar at the bottom of VSCode. Unless an error backing up occurs, you will not see any confirmation.
    - If you want to see your backed up work on Github, navigate to the following URL but replace `USERNAME` with your GitHub username:
-   - `https://github.com/comp110-21f/comp110-workspace-21f-USERNAME`
+   - `https://github.com/comp110-22s/comp110-workspace-22s-USERNAME`
 
 ## Download New Course Material
 
@@ -42,7 +42,7 @@ When you are first setting up your personal workspace repository, you will need 
 2. Join the Classroom by selecting your ONYEN (Clicking "Skip to the next step" is also OK)
 3. Click "Accept this Assignment"
 4. When the workspace is getting setup you may need to refresh until it tells you you're ready to go!
-5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-21f/comp110-workspace-21f-krisjordan` (except instead of `krisjordan` you will see your GitHub username).
+5. Click the link to your personal backup repository that looks something like this `https://github.com/comp110-22s/comp110-workspace-22s-krisjordan` (except instead of `krisjordan` you will see your GitHub username).
 6. Toward the top of the page it will say "Quick setup" and you will see two buttons: HTTPS and SSH. Click HTTPS and copy the text of the URL in the box to the right of the buttons (or click the clipboard icon)
 7. With your workspace open in VSCode, type in _Git: Add Remote_ and press enter with the option selected.
 10. In the blank text box that appears, paste in the URL to your backup repository that you just copied. Press enter.
