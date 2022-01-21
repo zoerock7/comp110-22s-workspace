@@ -1,6 +1,6 @@
 """EX01 - Chardle - A cute step toward Worlde."""
 
-__author__ = 730467120
+__author__ = "730467120"
 
 five_char_word: str = input("Enter a 5-character word: ")
 if len(five_char_word) != 5:
